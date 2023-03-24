@@ -1,0 +1,35 @@
+.pix1{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid;
+    background-image: url(https://losko.ru/wp-content/uploads/2019/07/frantz-mit-paula-beer.jpg);
+    position: absolute;
+}
+.pix2{
+    width: 1000px;
+    height: 1000px;
+    animation: slide 0.1s linear infinite; 
+    position: relative;
+}
+
+@keyframes slide{
+    0%{
+        background-color: rgba(255, 0, 0, 0.089);
+    }
+    10%{
+        background-color: rgba(253, 255, 127, 0.046);
+    }
+    20%{
+        background-color: rgba(0, 255, 4, 0.288)
+    }
+    30%{
+        background-color: rgba(0, 17, 255, 0.141);
+    }
+    40%{
+        background-color: rgba(83, 0, 128, 0.386);
+    }
+    50%{
+        background-color: rgba(255, 255, 0, 0.181);
+    }
+    
+}
